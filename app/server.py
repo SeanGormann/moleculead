@@ -71,7 +71,7 @@ retriever = HybridRetriever(
     result_formatter=custom_result_formatter,
 )
 
-llm = OpenAILLM(model_name="gpt-4", model_params={"temperature": 0})
+llm = OpenAILLM(model_name="chatgpt-4o-latest", model_params={"temperature": 0})
 rag = GraphRAG(retriever=retriever, llm=llm)
 
 

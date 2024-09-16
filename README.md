@@ -1,5 +1,8 @@
 # MolecuLead
 
+![MolecuLead UI](./images/moleculead_ui.png)
+*<center>MoleculeAD User Interface</center>*
+
 **MolecuLead** is a Bio Knowledge Graph (BioKG) combined with a Language Learning Model (LLM) that incorporates graph-based Retrieval-Augmented Generation (graphRAG) capabilities. The project integrates textual knowledge from four major bio databases: UniProt, DrugBank, MeSH (PubMed), and KEGG, enriching the BioKG with textual information to support tasks like molecular lead finding, drug repositioning, and drug repurposing.
 
 The application allows users to query molecular entities and relationships associated with diseases like Nephritis, Nerve Degenration or Hyperalgesia. MolecuLead quickly identifies related molecules, provides summarizations, and cites relevant sources, making it a powerful tool for drug discovery research.
@@ -61,6 +64,13 @@ The application allows users to query molecular entities and relationships assoc
 - Specifies files and directories to be excluded from version control, ensuring unnecessary or sensitive files are not tracked by Git.
 
 ---
+
+## Screenshots
+
+<p align="center">
+  <img src="./images/answer.png" alt="Answer" width="45%">
+  <img src="./images/sources.png" alt="Sources" width="45%">
+</p>
 
 ## Setup Instructions
 
