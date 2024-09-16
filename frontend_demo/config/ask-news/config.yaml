@@ -1,0 +1,16 @@
+corpus_id: "151,152,153,154,155"
+customer_id: 1526022105
+
+app_title: "AskNews"
+app_header_learn_more_link: "https://vectara.com/developers/sample-apps/"
+search_description: "Sample news aggregator built using Vectara"
+search_logo_src: "images/asknews_logo.png" ## could be URL
+search_logo_alt: "AskNews logo"
+search_logo_height: "20"
+
+summary_default_language: "eng"
+summary_num_sentences: 3
+summary_num_results: 7
+
+enable_source_filters: True
+sources: "BBC,NPR,FOX,CNBC,CNN"
